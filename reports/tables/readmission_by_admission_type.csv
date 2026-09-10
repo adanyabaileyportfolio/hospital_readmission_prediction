@@ -1,0 +1,9 @@
+admission_type,encounters,readmissions,readmission_rate,readmission_rate_pct
+Trauma Center,18,0,0.0,0.0
+Not Mapped,320,27,0.084375,8.44
+Newborn,10,1,0.1,10.0
+Elective,18667,1958,0.10489098408956983,10.49
+Not Available,4617,493,0.10677929391379684,10.68
+Missing,5207,583,0.11196466295371615,11.2
+Urgent,18132,2058,0.11350099272005294,11.35
+Emergency,52369,6194,0.11827607935992668,11.83
