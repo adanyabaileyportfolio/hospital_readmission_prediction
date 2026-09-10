@@ -1,0 +1,5 @@
+step,rows_before,rows_after,rows_removed
+Remove exact duplicate rows,101766,101766,0
+Remove duplicate encounter IDs,101766,101766,0
+Remove Unknown/Invalid gender,101766,101763,3
+Remove death and hospice discharges,101763,99340,2423

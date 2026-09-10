@@ -134,3 +134,18 @@ Feature inclusion decisions will consider missingness, clinical relevance, poten
 - Diagnosis codes will be grouped into broader categories.
 - Rare medication columns with little or no variation may be excluded.
 - Final model-feature decisions will be documented after data cleaning.
+
+## Applied cleaning decisions
+
+The cleaning pipeline made the following changes:
+
+- Removed 3 encounters with `Unknown/Invalid` gender.
+- Removed 2,423 encounters ending in death or hospice care.
+- Found no exact duplicate rows or duplicate encounter IDs.
+- Converted `?` entries into standard missing values.
+- Removed `weight`, `payer_code`, and `medical_specialty` from the cleaned modeling file because of substantial missingness and limited baseline utility.
+- Added readable admission-type, discharge-disposition, and admission-source descriptions.
+- Added grouped versions of the three diagnosis variables.
+- Created `readmitted_30d` as the binary project outcome.
+- Retained multiple encounters belonging to the same patient so they can be handled through patient-level group splitting.
+- Produced a cleaned dataset containing 99,340 encounters.
