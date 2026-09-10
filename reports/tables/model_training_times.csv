@@ -1,4 +1,4 @@
 model,training_time_seconds
-Dummy classifier,0.62
-Logistic regression,4.19
-Random forest,10.8
+Dummy classifier,0.71
+Logistic regression,4.54
+Random forest,13.02
