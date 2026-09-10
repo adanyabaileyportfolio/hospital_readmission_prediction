@@ -1,0 +1,3 @@
+split,encounters,unique_patients,readmissions,readmission_rate_pct
+Training,79567,55989,9070,11.4
+Testing,19773,13998,2244,11.35
